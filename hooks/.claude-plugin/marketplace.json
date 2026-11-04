@@ -1,6 +1,0 @@
-{
-  "name": "token-meter",
-  "owner": { "name": "Jesse Galetta" },
-  "description": "Token, context and tokens-per-second meter for Claude Code",
-  "plugins": [{ "name": "token-meter", "source": "./" }]
-}
