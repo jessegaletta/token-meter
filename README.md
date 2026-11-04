@@ -30,8 +30,6 @@ claude plugin install token-meter --marketplace jessegaletta/token-meter
 
 In the desktop app: **+** next to the prompt box → **Plugins** → **Add marketplace** with `jessegaletta/token-meter` → **Add plugin**.
 
-If the repository is private, the computer must already have git access to GitHub (an SSH key, or `gh auth login` followed by `gh auth setup-git`).
-
 ## Update
 
 ```
