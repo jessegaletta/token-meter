@@ -1,0 +1,8 @@
+{
+  "name": "token-meter",
+  "version": "0.2.0",
+  "description": "A band above the prompt with last-turn and session input/output tokens, prompt cache, context usage and tokens per second",
+  "author": { "name": "Jesse Galetta" },
+  "license": "MIT",
+  "types": "./types/index.d.ts"
+}
