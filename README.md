@@ -17,7 +17,7 @@ Tokens per second count only the main thread's generation time, leaving out the 
 At the prompt of a Claude Code terminal session:
 
 ```
-/plugin install token-meter --marketplace <owner>/<repo>
+/plugin install token-meter --marketplace jessegaletta/token-meter
 ```
 
 Answer `y` to add the marketplace and pick the **user** scope (the first one, with Enter): the mod starts right away and in every later session.
@@ -25,10 +25,10 @@ Answer `y` to add the marketplace and pick the **user** scope (the first one, wi
 From a shell, without opening Claude Code:
 
 ```
-claude plugin install token-meter --marketplace <owner>/<repo>
+claude plugin install token-meter --marketplace jessegaletta/token-meter
 ```
 
-In the desktop app: **+** next to the prompt box → **Plugins** → **Add marketplace** with `<owner>/<repo>` → **Add plugin**.
+In the desktop app: **+** next to the prompt box → **Plugins** → **Add marketplace** with `jessegaletta/token-meter` → **Add plugin**.
 
 If the repository is private, the computer must already have git access to GitHub (an SSH key, or `gh auth login` followed by `gh auth setup-git`).
 
